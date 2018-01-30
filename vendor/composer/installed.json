@@ -7987,12 +7987,12 @@
         "version_normalized": "1.2.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/jjriv/emogrifier.git",
+            "url": "https://github.com/MyIntervals/emogrifier.git",
             "reference": "a1db453bb504597d821efcc04b21c79a6021e00c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/jjriv/emogrifier/zipball/a1db453bb504597d821efcc04b21c79a6021e00c",
+            "url": "https://api.github.com/repos/MyIntervals/emogrifier/zipball/a1db453bb504597d821efcc04b21c79a6021e00c",
             "reference": "a1db453bb504597d821efcc04b21c79a6021e00c",
             "shasum": ""
         },
@@ -12309,5 +12309,36 @@
             }
         ],
         "description": "A tool to automatically fix PHP code style"
+    },
+    {
+        "name": "magento/data-migration-tool",
+        "version": "2.2.2",
+        "version_normalized": "2.2.2.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://repo.magento.com/archives/magento/data-migration-tool/magento-data-migration-tool-2.2.2.0.zip",
+            "reference": null,
+            "shasum": "d8d508db3688b676782906bfc7967320e7984353"
+        },
+        "require": {
+            "magento/framework": "~101.0.0",
+            "monolog/monolog": "^1.17",
+            "symfony/console": "~2.3, !=2.7.0"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Migration\\": [
+                    "src/Migration",
+                    "tests/unit/testsuite/Migration"
+                ]
+            },
+            "files": [
+                "src/Migration/cli_commands.php",
+                "registration.php"
+            ]
+        },
+        "description": "Migration Tool"
     }
 ]

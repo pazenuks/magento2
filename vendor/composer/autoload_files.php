@@ -147,5 +147,7 @@ return array(
     '1158fd4355efa1508f87cf82bdcd70ac' => $vendorDir . '/magento/module-admin-notification/registration.php',
     'ecb8e9b41f51c277a87468608b694cd4' => $vendorDir . '/magento/module-marketplace/registration.php',
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+    '0675d4e4a5ec2bff513f44d595f3b063' => $vendorDir . '/magento/data-migration-tool/src/Migration/cli_commands.php',
+    'a1a5ee93938163d4806d2cc4f289e75c' => $vendorDir . '/magento/data-migration-tool/registration.php',
     'b4cf39431a4b949eea8aa69ebb3d39da' => $baseDir . '/app/etc/NonComposerComponentRegistration.php',
 );

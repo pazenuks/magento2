@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5372385eabf5320c0027f3fca0462c5",
+    "content-hash": "1692b2c8489fabbb935492e45b0ad376",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -701,6 +701,35 @@
                 "AFL-3.0"
             ],
             "description": "Magento composer library helps to instantiate Composer application and run composer commands."
+        },
+        {
+            "name": "magento/data-migration-tool",
+            "version": "2.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/data-migration-tool/magento-data-migration-tool-2.2.2.0.zip",
+                "reference": null,
+                "shasum": "d8d508db3688b676782906bfc7967320e7984353"
+            },
+            "require": {
+                "magento/framework": "~101.0.0",
+                "monolog/monolog": "^1.17",
+                "symfony/console": "~2.3, !=2.7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Migration\\": [
+                        "src/Migration",
+                        "tests/unit/testsuite/Migration"
+                    ]
+                },
+                "files": [
+                    "src/Migration/cli_commands.php",
+                    "registration.php"
+                ]
+            },
+            "description": "Migration Tool"
         },
         {
             "name": "magento/framework",
@@ -6227,12 +6256,12 @@
             "version": "V1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jjriv/emogrifier.git",
+                "url": "https://github.com/MyIntervals/emogrifier.git",
                 "reference": "a1db453bb504597d821efcc04b21c79a6021e00c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jjriv/emogrifier/zipball/a1db453bb504597d821efcc04b21c79a6021e00c",
+                "url": "https://api.github.com/repos/MyIntervals/emogrifier/zipball/a1db453bb504597d821efcc04b21c79a6021e00c",
                 "reference": "a1db453bb504597d821efcc04b21c79a6021e00c",
                 "shasum": ""
             },
